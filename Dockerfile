@@ -24,5 +24,4 @@ VOLUME  ["/etc/mysql", "/var/lib/mysql"]
 ENV TERM dumb
 
 EXPOSE 3306
-CMD ["/run.sh &"]
-CMD ["/bin/bash"]
+CMD ["/run.sh"]
